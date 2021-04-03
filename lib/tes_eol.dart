@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
-class NewStatefullWidget extends StatefulWidget {
+class SomeChangeMadeToTheFile extends StatefulWidget {
   @override
-  _NewStatefullWidgetState createState() => _NewStatefullWidgetState();
+  _SomeChangeMadeToTheFileState createState() =>
+      _SomeChangeMadeToTheFileState();
 }
 
-class _NewStatefullWidgetState extends State<NewStatefullWidget> {
+class _SomeChangeMadeToTheFileState extends State<SomeChangeMadeToTheFile> {
   @override
   Widget build(BuildContext context) {
     return Container();
