@@ -22,13 +22,13 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: AnotherChange(title: 'Flutter Demo Home Page'),
+      home: WooshMadoodle(title: 'Flutter Demo Home Page'),
     );
   }
 }
 
-class AnotherChange extends StatefulWidget {
-  AnotherChange({Key key, this.title}) : super(key: key);
+class WooshMadoodle extends StatefulWidget {
+  WooshMadoodle({Key key, this.title}) : super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -42,10 +42,10 @@ class AnotherChange extends StatefulWidget {
   final String title;
 
   @override
-  _AnotherChangeState createState() => _AnotherChangeState();
+  _WooshMadoodleState createState() => _WooshMadoodleState();
 }
 
-class _AnotherChangeState extends State<AnotherChange> {
+class _WooshMadoodleState extends State<WooshMadoodle> {
   int _counter = 0;
 
   void _incrementCounter() {
